@@ -123,7 +123,65 @@ The Ubutabera Bwihuse BPMN diagram illustrates the key steps in managing and res
 
 
 
+## 🧭 Step-by-Step Process Description
 
+### Step 1
+
+ 📥 Case Submission by Litigants
+The process starts when individuals involved in a civil dispute (e.g., divorce) submit their case through a public intake system or directly at a courthouse.
+
+### Step 2
+
+ 🧾 Case Recording by Court Clerk
+A clerk enters all case details (case type, litigants, filing date, etc.) into the system, initiating the workflow.
+
+### Step 3
+
+ 🤖 Automated Assignment to Judge
+Using built-in PL/SQL logic, the system automatically assigns each case to a judge based on:
+
+- The jurisdiction of the court
+
+- The specialization of the judge (e.g., family law)
+
+### Step 4
+
+⏱️ Case Monitoring
+The system monitors how long the case remains unresolved. Each case type has a target resolution timeframe based on historical legal procedure data.
+
+### Step 5
+
+🚨 Alert Generation for Delays
+If a case exceeds the expected time, an alert is sent to a supervising authority (e.g., court manager or administrative judge) to intervene or follow up.
+
+ ### Step 6
+ 
+ ✅ Case Resolution
+Once a decision is reached, the judge marks the case as resolved. The outcome and closing date are entered into the system.
+
+### Step 7
+
+📊 Performance Logging
+After resolution, the system logs:
+
+- Resolution time
+
+- Judge’s performance
+
+- Case complexity (optional)
+
+- Any delays and interventions
+
+### Step 8
+
+📤 MIS Reporting to Ministry of Justice
+The data collected is automatically compiled into reports accessible to the Ministry of Justice, enabling:
+
+- Insight into systemic delays
+
+- Performance comparisons between courts
+
+- Evidence-based legal reforms
 
 
 
