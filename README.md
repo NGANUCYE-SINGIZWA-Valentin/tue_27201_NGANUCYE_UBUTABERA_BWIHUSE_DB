@@ -249,7 +249,7 @@ The logical model is the foundation for building the actual database. It describ
 
 
 
-## Logical Model Design Images
+## Logical Model Design Image
 
 The diagram below shows the main entities and relationships in the Ubutabera Bwihuse system. It clearly illustrates how cases are linked to courts, judges, litigants, and legal procedures, forming the foundation for the database structure.
 The ER diagram provides a visual overview of the normalized data model for this PL/SQL-based system. It captures key entities, attributes, and their interconnections to support efficient data organization and integrity.
