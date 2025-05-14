@@ -13,12 +13,62 @@
 # ⚖️ UBUTABERA BWIHUSE (Fast Justice) – Phase I
 
 ### 📌 Overview
-"Ubutabera Bwihuse", meaning Fast Justice, is a PL/SQL-based capstone project focused on helping the Rwandan justice system solve one major issue: delays in civil case resolutions, especially divorce cases.
+In Rwanda’s legal system, criminal cases are often resolved relatively quickly. However, civil cases especially divorce proceedings suffer from long delays, sometimes taking over a year (average 454 days) to reach a resolution. This growing backlog is not just a legal issue; it’s a serious social problem. The consequences of delayed civil justice are real and widespread causing: Increased domestic violence and family instability, Rising levels of mental health issues, Reduced public trust in the legal system and Even a rise in related crimes.
 
-While criminal cases in Rwanda are handled relatively fast, civil cases can take over a year (average 454 days) to conclude. These delays have real-life consequences like mental health issues, domestic violence, and increased crime. This project proposes a database system that uses Oracle PL/SQL to manage and analyze such cases more efficiently.
+In 2016, Rwanda recorded only 21 divorce cases. By 2024, that number had exploded to 2,833 cases. These numbers tell a deeper story- one of real people caught in the cracks of a slow system.
+
+To address this urgent issue, this project introduces “Ubutabera Bwihuse”, which means “Fast Justice” in Kinyarwanda. It is a PL/SQL-based Oracle database solution that aims to streamline the resolution of civil cases in Rwanda. The goal is to leverage technology to automate processes, monitor performance, and help the judiciary deliver justice faster and more fairly.
 
 
+ 
 
+## 🎯Project Objective
+
+### The main goal is to build a database that helps:
+
+- Reduce delays in civil case resolutions.
+
+- Support decision-makers with accurate reports on case timelines and bottlenecks.
+
+- Assign cases automatically to the right courts and judges.
+
+- Alert the system when a case is taking too long.
+
+## 👥 Who Will Use It?
+- Judges: To manage their workload efficiently.
+
+- Court administrators: To monitor performance and delays.
+
+- Policy makers: To see trends and improve the legal system.
+
+- Citizens: To receive faster and fairer access to justice.
+
+## 🧱 What the System Includes
+The system is built around the following entities:
+
+### Entity & Description
+- Cases: All case details (type, dates, court, status)
+- Courts: Locations and jurisdiction of courts
+- Judges: Names and specialization of judges
+- Litigants: People involved in each case
+- LegalProcedures: Steps expected in each type of case
+- Case litigant: A junction table to handle the many-to-many relationship between cases and litigants.
+
+  
+### Relationships include:
+
+- One court → many cases
+
+- One judge → many cases
+
+- Many litigants ↔ many cases (via linking table)
+
+## ⚙️ Main Features (Business Logic)
+Auto-assignment of cases to appropriate courts/judges
+
+Flagging of overdue cases for quick attention
+
+Monitoring performance of judges and courts based on resolution times
 
 
 
