@@ -237,6 +237,15 @@ The logical model is the foundation for building the actual database. It describ
 
 
 
+## 🔗 Relationship Summary Table
+
+| 👥 Entities Involved           | 🔁 Relationship Type | 🔑 Foreign Key Reference           | 🔢 Cardinality     | ✅ Valid |
+|-------------------------------|-----------------------|------------------------------------|--------------------|---------|
+| CaseTypes → LegalProcedures  | One-to-Many           | `LegalProcedures.CaseType` → `CaseTypes.CaseType` | 1 ➝ *              | ✅       |
+| CaseTypes → Cases            | One-to-Many           | `Cases.CaseType` → `CaseTypes.CaseType`           | 1 ➝ *              | ✅       |
+| Courts → Cases               | One-to-Many           | `Cases.CourtID` → `Courts.CourtID`               | 1 ➝ *              | ✅       |
+| Judges → Cases               | One-to-Many           | `Cases.JudgeID` → `Judges.JudgeID`               | 1 ➝ *              | ✅       |
+| Cases ↔ Litigants (via CaseLitigants) | Many-to-Many   | `CaseLitigants.CaseID`, `LitigantID` ↔ `Cases`, `Litigants` | * ↔ *              | ✅       |
 
 
 
