@@ -224,8 +224,16 @@ In Phase III of the Ubutabera Bwihuse (Fast Justice) project, the focus is on tr
 The logical model is the foundation for building the actual database. It describes what data will be stored, how different entities relate to each other, and which rules or constraints will be applied to maintain data integrity. It serves as a blueprint for the physical implementation in later phases.
 
 
+### Here is a detailed breakdown of your six entities and their key attributes:
 
-
+| 🧩 Entity           | 🔑 Primary Key           | 🧾 Key Attributes                                                        |
+| ------------------- | ------------------------ | ------------------------------------------------------------------------ |
+| **Cases**           | `CaseID`                 | CaseType, FilingDate, ResolutionDate, Status, CourtID (FK), JudgeID (FK) |
+| **Courts**          | `CourtID`                | Location, Jurisdiction                                                   |
+| **Judges**          | `JudgeID`                | Name, Specialization                                                     |
+| **Litigants**       | `LitigantID`             | Name, ContactInfo, Role                                                  |
+| **LegalProcedures** | `ProcedureID`            | CaseType, StepDescription, ExpectedDuration                              |
+| **CaseLitigants**   | (`CaseID`, `LitigantID`) | (Junction table for many-to-many link between Cases and Litigants)       |
 
 
 
