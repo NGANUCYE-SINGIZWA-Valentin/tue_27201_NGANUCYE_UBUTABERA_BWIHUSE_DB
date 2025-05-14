@@ -38,6 +38,8 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 
 - 🚨 Alert the system when a case is taking too long.
 
+  
+
 ## 👥 Who Will Use It?
 
 - 👩‍⚖️ Judges – to manage workloads and track performance.
@@ -47,6 +49,9 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 - 🧑‍💼 Policy Makers – to access trend data and plan reforms.
 
 - 👨‍👩‍👧‍👦 Citizens – to get faster, fairer resolutions for their legal issues.
+
+
+
 
 ## 🧱 What the System Includes
 
@@ -72,6 +77,8 @@ The system is built around the following entities:
 
 - Many litigants ↔ many cases (via linking table)
 
+
+
 ## ⚙️ Main Features (Business Logic)
 
 - ✅ Auto-assign cases to judges based on specialization and court jurisdiction.
@@ -82,21 +89,86 @@ The system is built around the following entities:
 
 - 🧠 Support data-driven reforms in the justice system.
 
+
+
+
 ## 🚀 Expected Outcomes
 
 The successful implementation of this system is expected to:
 
-⏱️ Reduce the time required to resolve civil cases, especially divorces
+- ⏱️ Reduce the time required to resolve civil cases, especially divorces.
 
-- ⚖️ Ensure justice is delivered fairly and without unnecessary delay
+- ⚖️ Ensure justice is delivered fairly and without unnecessary delay.
 
-- 🏛️ Improve court efficiency by streamlining workflows
+- 🏛️ Improve court efficiency by streamlining workflows.
 
-- 📢 Promote transparency in legal processes and public trust in justice
+- 📢 Promote transparency in legal processes and public trust in justice.
 
-- 📉 Help reduce social issues like violence, stress, and instability related to unresolved legal conflicts
+- 📉 Help reduce social issues like violence, stress, and instability related to unresolved legal conflicts.
 
-- 📚 Provide clear data insights for government and judicial reforms
+- 📚 Provide clear data insights for government and judicial reforms.
+
+
+
+
+# 🧩 PHASE II: BUSINESS PROCESS MDEL 🏛️📈🧠
+
+
+The Ubutabera Bwihuse BPMN diagram illustrates the key steps in managing and resolving civil cases in Rwanda’s legal system, focusing on divorces. The process begins with litigants submitting their case, which is then recorded by a clerk. An automated system assigns the case to a judge based on jurisdiction and specialization. The system continuously monitors the time taken for resolution. If the case exceeds the expected duration, an alert is triggered for supervisor intervention. After resolution, the system logs performance data, which is then used by the Ministry of Justice for decision-making through MIS reports.
+
+ ### A BPMN Model Image
+
+ <img width="794" alt="Screenshot 2025-05-11 153359" src="https://github.com/user-attachments/assets/6e5a0039-c15c-4f9c-adf0-c3d60367d70c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
