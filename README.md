@@ -254,12 +254,7 @@ The logical model is the foundation for building the actual database. It describ
 The diagram below shows the main entities and relationships in the Ubutabera Bwihuse system. It clearly illustrates how cases are linked to courts, judges, litigants, and legal procedures, forming the foundation for the database structure.
 The ER diagram provides a visual overview of the normalized data model for this PL/SQL-based system. It captures key entities, attributes, and their interconnections to support efficient data organization and integrity.
 
-### Image 1
 
-![Untitled](https://github.com/user-attachments/assets/b257551e-77c8-4bdd-80b2-a24cd26c3961)
-
-
-### Image 2
 
 <img width="928" alt="image" src="https://github.com/user-attachments/assets/f1283881-fb24-4b3a-b488-2813b5e9af73" />
 
