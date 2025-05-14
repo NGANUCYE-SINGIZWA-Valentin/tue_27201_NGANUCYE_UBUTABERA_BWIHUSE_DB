@@ -26,13 +26,13 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 
 ### The main goal is to build a database that helps:
 
-- Reduce delays in civil case resolutions.
+⚙️ Reduce delays in civil case resolutions.
 
-- Support decision-makers with accurate reports on case timelines and bottlenecks.
+📈 Support decision-makers with accurate reports on case timelines and bottlenecks.
 
-- Assign cases automatically to the right courts and judges.
+🤖 Assign cases automatically to the right courts and judges.
 
-- Alert the system when a case is taking too long.
+🚨 Alert the system when a case is taking too long.
 
 ## 👥 Who Will Use It?
 - Judges: To manage their workload efficiently.
@@ -64,14 +64,30 @@ The system is built around the following entities:
 - Many litigants ↔ many cases (via linking table)
 
 ## ⚙️ Main Features (Business Logic)
-Auto-assignment of cases to appropriate courts/judges
 
-Flagging of overdue cases for quick attention
+✅ Auto-assign cases to judges based on specialization and court jurisdiction
 
-Monitoring performance of judges and courts based on resolution times
+⏰ Flag overdue cases to help courts take quick action
 
+📊 Track performance of courts and judges using resolution time data
 
+🧠 Support data-driven reforms in the justice system
 
+## 🚀 Expected Outcomes
+
+The successful implementation of this system is expected to:
+
+⏱️ Reduce the time required to resolve civil cases, especially divorces
+
+⚖️ Ensure justice is delivered fairly and without unnecessary delay
+
+🏛️ Improve court efficiency by streamlining workflows
+
+📢 Promote transparency in legal processes and public trust in justice
+
+📉 Help reduce social issues like violence, stress, and instability related to unresolved legal conflicts
+
+📚 Provide clear data insights for government and judicial reforms
 
 
 
