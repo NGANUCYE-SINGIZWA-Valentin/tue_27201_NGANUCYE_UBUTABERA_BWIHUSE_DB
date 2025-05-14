@@ -13,7 +13,11 @@
 # ⚖️ UBUTABERA BWIHUSE (Fast Justice) – Phase I
 
 ### 📌 Overview
-In Rwanda’s legal system, criminal cases are often resolved relatively quickly. However, civil cases especially divorce proceedings suffer from long delays, sometimes taking over a year (average 454 days) to reach a resolution. This growing backlog is not just a legal issue; it’s a serious social problem. The consequences of delayed civil justice are real and widespread causing: Increased domestic violence and family instability, Rising levels of mental health issues, Reduced public trust in the legal system and Even a rise in related crimes.
+In Rwanda’s legal system, criminal cases are often resolved relatively quickly. However, civil cases especially divorce proceedings suffer from long delays, sometimes taking over a year (average 454 days) to reach a resolution. This growing backlog is not just a legal issue; it’s a serious social problem. The consequences of delayed civil justice are real and widespread causing: 
+- 🏚️Increased domestic violence and family instability.
+- 😞Rising levels of mental health issues.
+- ⚖️Reduced public trust in the legal justice system.
+- 🚨 Rising crime rates linked to unresolved disputes
 
 In 2016, Rwanda recorded only 21 divorce cases. By 2024, that number had exploded to 2,833 cases. These numbers tell a deeper story- one of real people caught in the cracks of a slow system.
 
@@ -35,24 +39,27 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 🚨 Alert the system when a case is taking too long.
 
 ## 👥 Who Will Use It?
-- Judges: To manage their workload efficiently.
+- 👩‍⚖️ Judges – to manage workloads and track performance.
 
-- Court administrators: To monitor performance and delays.
+- 🏛️ Court Administrators – to monitor delays and allocate resources.
 
-- Policy makers: To see trends and improve the legal system.
+- 🧑‍💼 Policy Makers – to access trend data and plan reforms.
 
-- Citizens: To receive faster and fairer access to justice.
+- 👨‍👩‍👧‍👦 Citizens – to get faster, fairer resolutions for their legal issues.
 
 ## 🧱 What the System Includes
 The system is built around the following entities:
 
 ### Entity & Description
-- Cases: All case details (type, dates, court, status)
-- Courts: Locations and jurisdiction of courts
-- Judges: Names and specialization of judges
-- Litigants: People involved in each case
-- LegalProcedures: Steps expected in each type of case
-- Case litigant: A junction table to handle the many-to-many relationship between cases and litigants.
+| 🧩 **Entity Name** | 📄 **Description**                                                                                    |
+| ------------------ | ----------------------------------------------------------------------------------------------------- |
+| `Cases`            | Stores all case details such as case type, filing/resolution dates, status, court, and judge involved |
+| `Courts`           | Represents court locations and jurisdictions                                                          |
+| `Judges`           | Contains judge names and their legal specialization                                                   |
+| `Litigants`        | Individuals involved in each case, with contact and role info                                         |
+| `LegalProcedures`  | Step-by-step process for each type of case, including expected duration                               |
+| `CaseLitigants`    | Junction table to manage the many-to-many relationship between cases and litigants                    |
+
 
   
 ### Relationships include:
