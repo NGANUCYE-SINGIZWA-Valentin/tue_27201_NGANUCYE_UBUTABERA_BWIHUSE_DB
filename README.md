@@ -1,4 +1,4 @@
-## 👤 INFORMATION
+# 👤 INFORMATION
 
 ### Name: NGANUCYE SINGIZWA Valentin
 ### ID: 27201
