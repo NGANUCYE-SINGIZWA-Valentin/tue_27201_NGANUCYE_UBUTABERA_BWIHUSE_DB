@@ -217,7 +217,11 @@ The MIS takes the raw data from the case management system and turns it into cle
 
 
 
+# 🧩 Phase III: Logical Model Design 🗂️🛠️🔗
+### 📘 Overview
+In Phase III of the Ubutabera Bwihuse (Fast Justice) project, the focus is on transforming the conceptual idea of the justice system into a well-structured logical data model. This phase ensures that all necessary data elements are clearly defined, related, and ready for implementation in the Oracle PL/SQL environment.
 
+The logical model is the foundation for building the actual database. It describes what data will be stored, how different entities relate to each other, and which rules or constraints will be applied to maintain data integrity. It serves as a blueprint for the physical implementation in later phases.
 
 
 
