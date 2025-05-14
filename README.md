@@ -140,9 +140,9 @@ A clerk enters all case details (case type, litigants, filing date, etc.) into t
  🤖 Automated Assignment to Judge
 Using built-in PL/SQL logic, the system automatically assigns each case to a judge based on:
 
-- The jurisdiction of the court
+- The jurisdiction of the court.
 
-- The specialization of the judge (e.g., family law)
+- The specialization of the judge (e.g., family law).
 
 ### Step 4
 
@@ -164,28 +164,56 @@ Once a decision is reached, the judge marks the case as resolved. The outcome an
 📊 Performance Logging
 After resolution, the system logs:
 
-- Resolution time
+- Resolution time.
 
-- Judge’s performance
+- Judge’s performance.
 
-- Case complexity (optional)
+- Case complexity (optional).
 
-- Any delays and interventions
+- Any delays and interventions.
 
 ### Step 8
 
 📤 MIS Reporting to Ministry of Justice
 The data collected is automatically compiled into reports accessible to the Ministry of Justice, enabling:
 
-- Insight into systemic delays
+- Insight into systemic delays.
 
-- Performance comparisons between courts
+- Performance comparisons between courts.
 
-- Evidence-based legal reforms
-
-
+- Evidence-based legal reforms.
 
 
+Once a case is resolved and closed in the system, all the information related to how that case was handled (how long it took, who handled it, whether it was delayed, etc.) is stored in the database.This information is then used by the system to automatically generate reports, which are shared with the Ministry of Justice.
+
+### 🧠 What Is MIS?
+MIS stands for Management Information System. It’s a computerized system that helps managers and government officials make better decisions using data.
+
+In this context, the MIS takes case data from the court system and transforms it into meaningful insights like:
+
+- 📊 How long cases are taking to be resolved in each court
+
+- 👩‍⚖️ Which judges have the most or least delays
+
+- 🏛️ Which courts are overloaded
+
+- 📅 How many cases were resolved this month or this year
+
+- 🚨 Where the most delays or problems are happening
+
+### 🧩 Why It Matters
+This reporting helps the Ministry of Justice (or other government leaders) to:
+
+- See which courts are doing well and which are struggling
+
+- Know where to send more judges or resources
+
+- Create new policies to fix recurring problems
+
+- Make the whole justice system more transparent and accountable to the public
+
+### ✅ In Summary:
+The MIS takes the raw data from the case management system and turns it into clear reports for the Ministry of Justice. These reports help improve planning, fairness, and efficiency in Rwanda’s civil court system.
 
 
 
