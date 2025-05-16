@@ -267,9 +267,37 @@ The following scenario demonstrates how the Ubutabera Bwihuse database model can
 
 Mr. Jean Uwimana and Mrs. Claudine Uwimana file for divorce at Nyarugenge Civil Court. The case is registered under CaseID `C0001`, linked to Judge Umwali (specialized in family law), and involves both litigants as Plaintiff and Defendant. The system monitors the resolution time and triggers an alert when the case exceeds 61 days. After 69 days, the judge finalizes the case, and performance data is logged. MIS reports are generated showing delays and court efficiency.
 
-![Schema Login](./images/schema_login_success.png)
 
 
+# 🧩 Phase IV: Database Creation and Setup 🗃️🛡️
+### 📘 Overview
+In Phase IV, the goal is to turn the logical model into an actual Oracle database environment. This involves creating a new user schema where all tables, data, and PL/SQL objects will live. Once the schema is created, it's connected to Oracle tools like SQL Developer or Oracle Enterprise Manager (OEM) for management and monitoring.
+
+This setup ensures the system is secure, accessible, and ready for development in future phases.
+
+
+### 📸 Screenshots Included
+Below are screenshots that demonstrate the successful setup:
+
+1️⃣ User Schema Created
+This screenshot shows the command to create the user and grant DBA privileges.
+```sql
+CREATE TABLE Cases (
+  CaseID VARCHAR2(10) PRIMARY KEY,
+  CaseType VARCHAR2(50),
+  FilingDate DATE NOT NULL,
+  ResolutionDate DATE,
+  Status VARCHAR2(20) DEFAULT 'OPEN',
+  CourtID VARCHAR2(10),
+  JudgeID VARCHAR2(10),
+  CONSTRAINT fk_court FOREIGN KEY (CourtID) REFERENCES Courts(CourtID),
+  CONSTRAINT fk_judge FOREIGN KEY (JudgeID) REFERENCES Judges(JudgeID)
+);
+
+```
+
+
+<img width="959" alt="PDB CREATION" src="https://github.com/user-attachments/assets/9b725af1-4057-4f12-adbd-a7d4b0fedcbb" />
 
 
 
