@@ -1,4 +1,4 @@
-# 👤 IDENTIFICATION
+<img width="959" alt="oracle enterprise manager(OEM)" src="https://github.com/user-attachments/assets/7302390b-6f27-446c-8dc1-f9b876ff794c" /># 👤 IDENTIFICATION
 
 ### Name: NGANUCYE SINGIZWA Valentin
 ### ID: 27201
@@ -290,8 +290,20 @@ This screenshot shows the command to create the user and grant DBA privileges.
 
 
 
+🧩 Phase V: Table Implementation and Data Insertion 🧱💾
+📘 Overview
+In this phase, we create all tables based on the logical model from Phase III and insert meaningful data that reflects real-life legal case scenarios in Rwanda. This step is critical for:
+
+- Testing queries and procedures in later phases
+
+- Validating the structure and relationships between entities
+
+- Simulating civil case workflows (e.g., divorce case lifecycle)
 
 
+#### 📸 Screenshots Included
+
+1️⃣ Table Creation
 
 
 
