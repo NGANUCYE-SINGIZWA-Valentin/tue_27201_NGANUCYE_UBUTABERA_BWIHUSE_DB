@@ -267,6 +267,7 @@ The following scenario demonstrates how the Ubutabera Bwihuse database model can
 
 Mr. Jean Uwimana and Mrs. Claudine Uwimana file for divorce at Nyarugenge Civil Court. The case is registered under CaseID `C0001`, linked to Judge Umwali (specialized in family law), and involves both litigants as Plaintiff and Defendant. The system monitors the resolution time and triggers an alert when the case exceeds 61 days. After 69 days, the judge finalizes the case, and performance data is logged. MIS reports are generated showing delays and court efficiency.
 
+![Schema Login](./images/schema_login_success.png)
 
 
 
