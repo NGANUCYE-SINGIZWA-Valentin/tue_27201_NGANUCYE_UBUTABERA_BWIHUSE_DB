@@ -259,6 +259,14 @@ The ER diagram provides a visual overview of the normalized data model for this 
 <img width="928" alt="image" src="https://github.com/user-attachments/assets/f1283881-fb24-4b3a-b488-2813b5e9af73" />
 
 
+## 🧪 Handling Real-World Data Scenarios
+
+The following scenario demonstrates how the Ubutabera Bwihuse database model can manage a complete civil case—from submission to resolution—and support decision-making through MIS reports.
+
+#### Divorce Case of Mr. & Mrs. Uwimana
+
+Mr. Jean Uwimana and Mrs. Claudine Uwimana file for divorce at Nyarugenge Civil Court. The case is registered under CaseID `C0001`, linked to Judge Umwali (specialized in family law), and involves both litigants as Plaintiff and Defendant. The system monitors the resolution time and triggers an alert when the case exceeds 61 days. After 69 days, the judge finalizes the case, and performance data is logged. MIS reports are generated showing delays and court efficiency.
+
 
 
 
