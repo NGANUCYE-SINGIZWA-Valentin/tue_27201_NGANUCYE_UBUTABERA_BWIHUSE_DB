@@ -1,4 +1,4 @@
-<img width="959" alt="oracle enterprise manager(OEM)" src="https://github.com/user-attachments/assets/7302390b-6f27-446c-8dc1-f9b876ff794c" /># 👤 IDENTIFICATION
+# 👤 IDENTIFICATION
 
 ### Name: NGANUCYE SINGIZWA Valentin
 ### ID: 27201
