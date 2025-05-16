@@ -308,12 +308,32 @@ In this phase, we create all tables based on the logical model from Phase III an
 <img width="959" alt="ALL IN ONE TABLE CREATION" src="https://github.com/user-attachments/assets/5f960301-7ee9-4fdd-94fb-67018adf1e4b" />
 
 
+2️⃣ Data Insertion
+
+### Inserting Into Judges Table
+
+<img width="959" alt="INSRT JUDGES TB " src="https://github.com/user-attachments/assets/f1aa9e2c-4701-4f44-b67f-2efb55fd6003" />
 
 
+### Inserting Into Litigant Table
 
+<img width="956" alt="INSRT IN LITIGANT TB" src="https://github.com/user-attachments/assets/aedc49f5-4e95-4e36-89d9-4728c292f103" />
 
+### Inserting Into Legal Procedures Table
 
+<img width="948" alt="LEGAL PROCEDURES TB" src="https://github.com/user-attachments/assets/8ab6720f-6505-46d7-9354-5d630aff4325" />
 
+### Inserting Into Cases Table
+
+<img width="956" alt="INSRT CASES TB" src="https://github.com/user-attachments/assets/05390d84-8925-4399-b67f-227d2fed2ae6" />
+
+### Inserting Into Courts Table
+
+<img width="956" alt="INSRT IN COURTS TB" src="https://github.com/user-attachments/assets/954c21bc-45fa-4adf-9b67-b8085f781476" />
+
+### Inserting Into Case Litigant Table
+
+<img width="956" alt="CASELITIGANT" src="https://github.com/user-attachments/assets/c0eacf77-64d3-4196-8c37-e9268a1ba596" />
 
 
 
