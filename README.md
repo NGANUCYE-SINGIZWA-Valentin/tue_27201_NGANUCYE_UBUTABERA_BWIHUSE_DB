@@ -296,7 +296,6 @@ CREATE TABLE Cases (
 
 ```
 
-
 <img width="959" alt="PDB CREATION" src="https://github.com/user-attachments/assets/9b725af1-4057-4f12-adbd-a7d4b0fedcbb" />
 
 
