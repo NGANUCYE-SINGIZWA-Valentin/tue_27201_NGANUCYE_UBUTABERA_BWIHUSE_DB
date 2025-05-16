@@ -281,25 +281,12 @@ Below are screenshots that demonstrate the successful setup:
 
 1️⃣ User Schema Created
 This screenshot shows the command to create the user and grant DBA privileges.
-```sql
-CREATE TABLE Cases (
-  CaseID VARCHAR2(10) PRIMARY KEY,
-  CaseType VARCHAR2(50),
-  FilingDate DATE NOT NULL,
-  ResolutionDate DATE,
-  Status VARCHAR2(20) DEFAULT 'OPEN',
-  CourtID VARCHAR2(10),
-  JudgeID VARCHAR2(10),
-  CONSTRAINT fk_court FOREIGN KEY (CourtID) REFERENCES Courts(CourtID),
-  CONSTRAINT fk_judge FOREIGN KEY (JudgeID) REFERENCES Judges(JudgeID)
-);
-
-```
 
 <img width="959" alt="PDB CREATION" src="https://github.com/user-attachments/assets/9b725af1-4057-4f12-adbd-a7d4b0fedcbb" />
 
+2️⃣ Oracle Enterprise Manager
 
-
+<img width="959" alt="oracle enterprise manager(OEM)" src="https://github.com/user-attachments/assets/c13bdfb6-e486-48a8-b258-a9834c215ebd" />
 
 
 
