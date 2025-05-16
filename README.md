@@ -290,7 +290,7 @@ This screenshot shows the command to create the user and grant DBA privileges.
 
 
 
-🧩 Phase V: Table Implementation and Data Insertion 🧱💾
+## 🧩 Phase V: Table Implementation and Data Insertion 🧱💾
 📘 Overview
 In this phase, we create all tables based on the logical model from Phase III and insert meaningful data that reflects real-life legal case scenarios in Rwanda. This step is critical for:
 
@@ -303,8 +303,9 @@ In this phase, we create all tables based on the logical model from Phase III an
 
 #### 📸 Screenshots Included
 
-1️⃣ Table Creation
+1️⃣ All in one Tables Creation
 
+<img width="959" alt="ALL IN ONE TABLE CREATION" src="https://github.com/user-attachments/assets/5f960301-7ee9-4fdd-94fb-67018adf1e4b" />
 
 
 
