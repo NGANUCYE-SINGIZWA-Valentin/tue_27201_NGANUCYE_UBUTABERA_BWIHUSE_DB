@@ -373,12 +373,17 @@ We’ll solve this using a Window Function: RANK() OVER(PARTITION BY CourtID ORD
 
 🧪 Function Test or Calling
 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/aa1e55e2-1268-479f-89e5-a5c779358a4f" />
 
 
+### 🔍 2. Procedure: Show Resolved Cases by Judge
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/4b94cd08-d4be-43cd-8c43-01013807680a" />
 
 
+🧪 Procedure Test or Calling
 
-
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/8c8dab96-f0fc-434e-a11f-1c0d1595cb69" />
 
 
 
