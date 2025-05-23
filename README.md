@@ -26,7 +26,7 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 
  
 
-### 🎯Project Objective
+## 🎯Project Objective
 
 ### The main goal is to build a database that helps:
 
@@ -40,7 +40,7 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 
   
 
-### 👥 Who Will Use It?
+## 👥 Who Will Use It?
 
 - 👩‍⚖️ Judges – to manage workloads and track performance.
 
@@ -53,7 +53,7 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 
 
 
-### 🧱 What the System Includes
+## 🧱 What the System Includes
 
 The system is built around the following entities:
 
@@ -79,7 +79,7 @@ The system is built around the following entities:
 
 
 
-### ⚙️ Main Features (Business Logic)
+## ⚙️ Main Features (Business Logic)
 
 - ✅ Auto-assign cases to judges based on specialization and court jurisdiction.
 
