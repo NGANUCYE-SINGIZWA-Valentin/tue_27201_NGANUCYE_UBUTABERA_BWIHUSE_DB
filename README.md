@@ -358,6 +358,85 @@ By simulating daily court operations, this phase prepares your project for full 
 
 
 
+### 🔍 1. Define a Simple Problem Statement (Using Windows Functions)
+### Problem Statement:
+
+Identify the top 3 fastest judges in terms of average case resolution time, grouped by court. This will help the Ministry of Justice reward high-performing judges and balance workloads more fairly across courts.
+
+We’ll solve this using a Window Function: RANK() OVER(PARTITION BY CourtID ORDER BY AvgDays ASC).
+
+
+
+### 🔁 1. Function: Count Total Cases by Judge
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/321b8630-acc1-4db0-ab6e-8a5d929b526c" />
+
+🧪 Function Test or Calling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
