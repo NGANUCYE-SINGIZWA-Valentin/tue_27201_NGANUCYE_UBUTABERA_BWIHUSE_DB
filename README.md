@@ -337,7 +337,15 @@ In this phase, we create all tables based on the logical model from Phase III an
 
 
 
+## 🧩 Phase VI: Database Interaction and Transactions 🔄🧑‍💻📊
 
+📘 Overview
+
+In Phase VI, the project transitions from static data to dynamic interaction with the database. This phase focuses on writing and executing PL/SQL programs to perform real-time tasks such as retrieving data, updating case statuses, calculating delays, and generating insights.
+
+Through the use of procedures, functions, cursors, exception handling, and packages, the system becomes intelligent and responsive—capable of automatically managing court processes and helping legal administrators make better decisions.
+
+This phase demonstrates how the Ubutabera Bwihuse (Fast Justice) system can be used not only to store legal data but also to process and analyze it in real time, simulating real-world operations in the justice system of Rwanda.
 
 
 
