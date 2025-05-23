@@ -10,7 +10,7 @@
 
 
 
-# ⚖️ UBUTABERA BWIHUSE (Fast Justice) – Phase I
+# ⚖️ UBUTABERA BWIHUSE (Fast Justice) SYSTEM – Phase I
 
 ### 📌 Overview
 In Rwanda’s legal system, criminal cases are often resolved relatively quickly. However, civil cases especially divorce proceedings suffer from long delays, sometimes taking over a year (average 454 days) to reach a resolution. This growing backlog is not just a legal issue; it’s a serious social problem. The consequences of delayed civil justice are real and widespread causing: 
@@ -26,7 +26,7 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 
  
 
-## 🎯Project Objective
+### 🎯Project Objective
 
 ### The main goal is to build a database that helps:
 
@@ -40,7 +40,7 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 
   
 
-## 👥 Who Will Use It?
+### 👥 Who Will Use It?
 
 - 👩‍⚖️ Judges – to manage workloads and track performance.
 
@@ -53,7 +53,7 @@ To address this urgent issue, this project introduces “Ubutabera Bwihuse”, w
 
 
 
-## 🧱 What the System Includes
+### 🧱 What the System Includes
 
 The system is built around the following entities:
 
@@ -79,7 +79,7 @@ The system is built around the following entities:
 
 
 
-## ⚙️ Main Features (Business Logic)
+### ⚙️ Main Features (Business Logic)
 
 - ✅ Auto-assign cases to judges based on specialization and court jurisdiction.
 
@@ -291,7 +291,9 @@ This screenshot shows the command to create the user and grant DBA privileges.
 
 
 ## 🧩 Phase V: Table Implementation and Data Insertion 🧱💾
-📘 Overview
+
+### 📘 Overview
+
 In this phase, we create all tables based on the logical model from Phase III and insert meaningful data that reflects real-life legal case scenarios in Rwanda. This step is critical for:
 
 - Testing queries and procedures in later phases
@@ -339,7 +341,7 @@ In this phase, we create all tables based on the logical model from Phase III an
 
 ## 🧩 Phase VI: Database Interaction and Transactions 🔄🧑‍💻📊
 
-📘 Overview
+### 📘 Overview
 
 In Phase VI, the project transitions from static data to dynamic interaction with the database. This phase focuses on writing and executing PL/SQL programs to perform real-time tasks such as retrieving data, updating case statuses, calculating delays, and generating insights.
 
@@ -347,6 +349,12 @@ Through the use of procedures, functions, cursors, exception handling, and packa
 
 This phase demonstrates how the Ubutabera Bwihuse (Fast Justice) system can be used not only to store legal data but also to process and analyze it in real time, simulating real-world operations in the justice system of Rwanda.
 
+
+### 💡 Why This Phase Matters
+
+This phase brings your database to life. Courts don't just collect information—they need to interact with it, detect delays, assign resources, and take action. Phase VI proves your system is not just a data container but a functional tool for justice efficiency.
+
+By simulating daily court operations, this phase prepares your project for full integration with reports, dashboards, and judicial monitoring systems in later phases.
 
 
 
