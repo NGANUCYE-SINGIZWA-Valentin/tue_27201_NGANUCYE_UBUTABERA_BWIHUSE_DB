@@ -429,6 +429,24 @@ ALTER TABLE example
 
 
 
+## 🧩 Phase VII: Advanced Database Programming and Auditing – Ubutabera Bwihuse
+
+### 1️⃣ Problem Statement and Justification
+Problem Statement:
+In the Ubutabera Bwihuse (Fast Justice) system, unauthorized data manipulation on weekdays and public holidays may lead to fraud, data tampering, and loss of trust in Rwanda’s judicial processes. To protect integrity, the system must restrict DML operations (INSERT, UPDATE, DELETE) during official business days and holidays, and log all such attempts for auditing.
+
+### Justification:
+
+🔒 Triggers prevent unauthorized data changes automatically.
+
+🧠 Packages and procedures standardize audit logging and make logic reusable.
+
+📋 Audit logs ensure full traceability for every action attempted.
+
+### 2️⃣ Step-by-Step Setup and Insertion
+
+### a) Create Holiday Table with Real Rwandan July Holidays
+
 
 
 
