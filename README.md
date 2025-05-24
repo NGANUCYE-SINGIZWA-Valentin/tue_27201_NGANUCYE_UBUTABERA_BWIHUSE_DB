@@ -386,7 +386,13 @@ We’ll solve this using a Window Function: RANK() OVER(PARTITION BY CourtID ORD
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/8c8dab96-f0fc-434e-a11f-1c0d1595cb69" />
 
 
+### 📦 3. Package: CaseTools (Function + Procedure)
 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/a73b9dd4-9ce6-4b90-93ea-32121f7eca8b" />
+
+🧪 Package Function and Procedure Test in Package
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/aa4e8d86-0f85-472e-bad0-a58980349a78" />
 
 
 
