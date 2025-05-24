@@ -443,29 +443,44 @@ In the Ubutabera Bwihuse (Fast Justice) system, unauthorized data manipulation o
 
 📋 Audit logs ensure full traceability for every action attempted.
 
-### 2️⃣ Step-by-Step Setup and Insertion
+## 2️⃣ Step-by-Step Setup and Insertion
 
 ### a) Create Holiday Table with Real Rwandan July Holidays
 
 
+<img width="957" alt="HOLIDAY TABLE CREATION" src="https://github.com/user-attachments/assets/042c2b27-7c0e-4c4c-934c-90ac3424cd15" />
+
+### Inserting real holidays for July because there are no holidays in June (
+
+<img width="958" alt="inserting in holiday table" src="https://github.com/user-attachments/assets/8b4195b3-eeb7-4ddd-985a-4a944c94f851" />
 
 
+### b) Creating Audit Log Table
 
+<img width="955" alt="AUDIT LOG TABLE" src="https://github.com/user-attachments/assets/ba674ebf-08af-4041-a3ef-2ae00f4a796d" />
 
+### c) Creating Auditing Package
 
+<img width="958" alt="CREATING AUDITING PACKAGE" src="https://github.com/user-attachments/assets/d69e9408-279b-4e7a-89ed-0300dc8059f3" />
 
+### d) Creating Sample Protected Table(case_records)
 
+<img width="959" alt="SAMPLE TABLE OF CASERECORDS CREATED TO BE PROTECTED" src="https://github.com/user-attachments/assets/5bb43dc3-9a5c-4e85-acaa-d5bd3c6e86fb" />
 
+### e) Creating Trigger to Block DML on Weekdays or Holidays
 
+<img width="959" alt="TRIGGER ON CASERECORDS TABLE CREATED " src="https://github.com/user-attachments/assets/4edcb638-f333-4b95-9ec2-09c39cd30bbf" />
 
+## 3️⃣ How to Test the Security Features
 
+### ✅ Test 1: Try DML on a Weekday
 
+```sql
+INSERT INTO case_records (case_id, case_title)
+VALUES (1, 'Land dispute in Kigali');
+```
 
-
-
-
-
-
+<img width="987" alt="image" src="https://github.com/user-attachments/assets/eadec410-c527-4133-8e8a-95567717f574" />
 
 
 
