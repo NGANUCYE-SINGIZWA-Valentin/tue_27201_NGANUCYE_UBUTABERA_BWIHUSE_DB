@@ -473,7 +473,7 @@ In the Ubutabera Bwihuse (Fast Justice) system, unauthorized data manipulation o
 
 ## 3️⃣ How to Test the Security Features
 
-### ✅ Test 1: Try DML on a Weekday
+### ✅ Test 1: Try DML on a Weekday(FRIDAY 23/05/2025)
 
 ```sql
 INSERT INTO case_records (case_id, case_title)
@@ -503,12 +503,23 @@ VALUES (4, 'Simulated Case on Liberation Day');
 
 
 
+### ✅ Test 3: Try DML on a Weekend (Saturday 24/05/2025)
+
+```sql
+INSERT INTO case_records (case_id, case_title)
+VALUES (4, 'Family inheritance case');
+```
+
+<img width="972" alt="image" src="https://github.com/user-attachments/assets/f89bef5f-beab-449b-a7c1-846b2c65aebf" />
 
 
+## 📜 Check the Audit Log Anytime
 
+```sql
+SELECT * FROM audit_log ORDER BY action_time DESC;
+```
 
-
-
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/8013592f-a9c5-4c22-a3d4-1bc74cef1207" />
 
 
 
