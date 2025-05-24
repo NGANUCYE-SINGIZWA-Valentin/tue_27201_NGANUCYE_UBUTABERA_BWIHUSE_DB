@@ -395,22 +395,37 @@ We’ll solve this using a Window Function: RANK() OVER(PARTITION BY CourtID ORD
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/aa4e8d86-0f85-472e-bad0-a58980349a78" />
 
 
+## 💾 4. DML OPERATIONS (Data Manipulation Language)
+
+ 🔁 INSERT
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/fff562d1-01be-4d02-86e3-b0181c0338aa" />
 
 
+🔄 UPDATE
 
 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/324aa4bd-7f23-4d47-9776-5a904c4b6bec" />
 
 
+❌ DELETE
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/bb14a610-3dec-47d1-b8ba-abfb48ae4d58" />
+
+### 🧱 5. DDL OPERATIONS (Data Definition Language)
+
+ CREATE TABLE example
+
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/fa08e51a-bb4a-4b68-ad09-4e2bd1811017" />
+
+ALTER TABLE example
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/f8477008-44da-40ab-b39c-bb10fa07a307" />
 
 
+ DROP TABLE example
 
-
-
-
-
-
-
-
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/a1c402db-aebe-49be-9ea9-1c8f76307eb6" />
 
 
 
