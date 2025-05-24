@@ -290,7 +290,7 @@ This screenshot shows the command to create the user and grant DBA privileges.
 
 
 
-## 🧩 Phase V: Table Implementation and Data Insertion 🧱💾
+# 🧩 Phase V: Table Implementation and Data Insertion 🧱💾
 
 ### 📘 Overview
 
@@ -339,7 +339,7 @@ In this phase, we create all tables based on the logical model from Phase III an
 
 
 
-## 🧩 Phase VI: Database Interaction and Transactions 🔄🧑‍💻📊
+# 🧩 Phase VI: Database Interaction and Transactions 🔄🧑‍💻📊
 
 ### 📘 Overview
 
@@ -429,7 +429,7 @@ ALTER TABLE example
 
 
 
-## 🧩 Phase VII: Advanced Database Programming and Auditing – Ubutabera Bwihuse
+# 🧩 Phase VII: Advanced Database Programming and Auditing – Ubutabera Bwihuse
 
 ### 1️⃣ Problem Statement and Justification
 Problem Statement:
