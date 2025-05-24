@@ -521,12 +521,18 @@ SELECT * FROM audit_log ORDER BY action_time DESC;
 
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/8013592f-a9c5-4c22-a3d4-1bc74cef1207" />
 
+By implementing real-time DML restrictions tied to weekdays and public holidays, Phase VII has transformed the Ubutabera Bwihuse system into a secure, policy-compliant, and intelligent legal database. Every action is now audited, every breach attempt is logged, and data manipulation is only allowed when legally appropriate. The use of packages and triggers has ensured that the system not only protects itself, but also holds users accountable for every action. These enhancements uphold the very principles of justice that the system was built to support: fairness, transparency, and accountability.
+
+This phase proves that the system is not just functional it is trustworthy. It respects Rwandan national holidays, adapts to judicial regulations, and provides court administrators and the Ministry of Justice with the confidence that no unauthorized changes go unnoticed.
 
 
+# ***Conclusion***
 
+The Ubutabera Bwihuse PL/SQL database system stands as a complete, intelligent solution designed to support Rwanda’s legal sector in the digital age. Through all development phases—from data modeling and table creation to analytical queries, procedural logic, and real-time auditing—the system has evolved into a tool that is robust, efficient, and deeply aligned with the needs of justice delivery.
 
+It does more than store court cases. It tracks performance, flags inefficiencies, enforces rules, and defends the system from errors or misuse. With built-in triggers, auditing, and holiday-based restrictions, the solution offers both operational power and legal integrity.
 
-
+This project not only meets academic standards but could also serve as the foundation for a real-world digital justice platform. With minimal extensions, it could integrate with case portals, user dashboards, or national e-justice frameworks.
 
 
 
