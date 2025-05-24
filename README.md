@@ -485,8 +485,21 @@ VALUES (1, 'Land dispute in Kigali');
 
 
 
+### ✅ Test 2: Try DML on a Public Holiday (e.g., July 1)
 
+### I Simulated today as a holiday 
+```sql
+INSERT INTO holiday_reference VALUES (TO_DATE('2025-07-04', 'YYYY-MM-DD'), 'Liberation Day');
+COMMIT;
+```
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/facbe1b8-6d2e-47a6-a79f-ef377137bd66" />
 
+### Then I tried to insert into Case_records
+```sql
+INSERT INTO case_records (case_id, case_title)
+VALUES (4, 'Simulated Case on Liberation Day');
+```
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/b3577013-fb3e-44d0-a686-a75cca134942" />
 
 
 
