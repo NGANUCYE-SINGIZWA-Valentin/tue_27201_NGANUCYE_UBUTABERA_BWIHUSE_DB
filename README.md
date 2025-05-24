@@ -536,4 +536,11 @@ This project not only meets academic standards but could also serve as the found
 
 
 
+# ***🙏 Final Reflection and Appreciation***
 
+
+Working on the Ubutabera Bwihuse project has been a transformative journey for me. It not only strengthened my technical skills in PL/SQL and database design, but also deepened my understanding of how digital systems can be built to support justice, accountability, and good governance.
+
+I’m proud to have created a solution that respects the laws and cultural values of Rwanda—especially by enforcing holiday and weekday restrictions and ensuring every action is properly audited. This system reflects the real-world needs of a justice institution, and I believe it could inspire future digital solutions in Rwanda and beyond.
+
+I sincerely thank my instructor, reviewers, and anyone who guided or inspired me during this journey. Your support helped me move from theory to a working, secure, and meaningful system.
